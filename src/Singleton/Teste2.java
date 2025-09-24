@@ -1,9 +1,9 @@
 package Singleton;
 
-public class Teste1 {
+public class Teste2 {
     private DbConn dbConn;
 
-    public Teste1() {
+    public Teste2() {
         this.dbConn = DbConn.getConnection();
     }
 

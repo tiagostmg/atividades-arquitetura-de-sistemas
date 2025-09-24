@@ -1,12 +1,13 @@
 package Singleton;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-class Main{
-    private static void main(String[] args) {
-        DbConn db = DbConn.getConnection();
+public class Main {
+    public static void main(String[] args) {
 
-        db.println("deu certo");
+        Teste1 t1 = new Teste1();
+        Teste2 t2 = new Teste2();
+
+        t1.println("deu certo");
+        t2.println("deu certo");
 
     }
 }
