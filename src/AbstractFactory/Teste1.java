@@ -1,3 +1,5 @@
+package AbstractFactory;
+
 public class Teste1 {
     private Channel ch;
     public Teste1(){

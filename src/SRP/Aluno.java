@@ -1,3 +1,5 @@
+package SRP;
+
 public class Aluno{
 
     private String nome;
