@@ -1,0 +1,18 @@
+Contexto
+
+O Prototype é um padrão de projeto criacional que permite copiar objetos
+existentes sem fazer seu código ficar dependente de suas classes.
+
+Problema
+
+O problema central em copiar um objeto é a dificuldade em criar uma cópia
+exata de forma genérica, pois podem ter campos privados que não poderão ser acessados.
+Essas limitações tornam a cópia "por fora" do objeto uma tarefa complexa e
+muitas vezes impossível, exigindo uma solução de design mais flexível.
+
+Solução
+
+O padrão Prototype delega o processo de clonagem para o próprio objeto que está sendo clonado.
+O padrão declara um interface comum para todos os objetos que suportam clonagem.
+Essa interface permite que você clone um objeto sem acoplar seu código à classe daquele objeto.
+Geralmente, tal interface contém apenas um único método clonar.

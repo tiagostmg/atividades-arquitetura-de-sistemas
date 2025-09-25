@@ -1,0 +1,25 @@
+Contexto
+
+O Builder é um padrão de design criacional que permite construir
+objetos complexos passo a passo. O padrão permite
+produzir diferentes tipos e representações de um
+objeto usando o mesmo código de construção.
+
+Problema
+
+O problema central é a complexidade crescente de uma classe
+quando ela precisa lidar com muitas configurações e
+funcionalidades opcionais.
+
+O desafio, portanto, é encontrar uma maneira de criar e
+configurar objetos complexos sem recorrer a uma hierarquia
+de subclasses incontrolável ou a um construtor com excesso
+de parâmetros.
+
+Solução
+
+O padrão Builder sugere que você extraia o código de construção
+do objeto de sua própria classe e o mova para objetos separados
+chamados builders. Permite construir objetos complexos passo a
+passo. O Builder não permite que outros objetos acessem o
+produto enquanto ele está sendo construído.
